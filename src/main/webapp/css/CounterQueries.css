@@ -1,0 +1,36 @@
+
+  .dropdown-el {
+    font-family: "Myriad Pro","Arial",sans;
+    font-size: 20px;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    line-height:50px;
+    margin-right: 1em;
+    min-height: 50px;
+    overflow: hidden;
+    top: .5em;
+    cursor: pointer;
+    text-align: left;
+    color: rgb(240, 240, 240);
+    outline: none;
+    border: .06em solid transparent;
+    border-radius: 1em;
+    background-color: #36304a;
+    transition: 0.3s all ease-in-out;
+  }
+  .select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 2;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+  
